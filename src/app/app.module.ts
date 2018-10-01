@@ -19,7 +19,8 @@ import { PerfilPage } from '../pages/perfil/perfil';
     HomePage,
     MensagensPage,
     ViagensPage,
-    PerfilPage
+    PerfilPage,
+    LugaresPage
   ],
   imports: [
     BrowserModule,
