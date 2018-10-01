@@ -1,0 +1,7 @@
+{
+  "name": "togo",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

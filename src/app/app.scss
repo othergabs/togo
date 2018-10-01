@@ -1,0 +1,39 @@
+.footer {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  // box-shadow: 0 -1px 30px #ddd;
+  border-top: 1px solid #d7d7d7;
+  margin: 0;
+  bottom: 0;
+  top: unset;
+  height: auto;
+
+  &_item {
+    width: 24px;
+    height: 24px;
+    position: relative;
+
+    &::before {
+      content: "";
+      right: 8px;
+      background: #9afff8;
+      border-radius: 50%;
+      height: 20px;
+      width: 20px;
+      position: absolute;
+      top: -2px;
+    }
+
+    &_icon {
+      fill: #0f03be;
+      height: 4vh;
+      width: 4vh;
+      vertical-align: middle;
+      position: relative;
+    }
+
+  }
+}
