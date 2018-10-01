@@ -15,7 +15,16 @@
     width: 24px;
     height: 24px;
     position: relative;
+    &_icon {
+      fill: #0f03be;
+      height: 4vh;
+      width: 4vh;
+      vertical-align: middle;
+      position: relative;
+    }
 
+  }
+  .active {
     &::before {
       content: "";
       right: 8px;
@@ -26,14 +35,5 @@
       position: absolute;
       top: -2px;
     }
-
-    &_icon {
-      fill: #0f03be;
-      height: 4vh;
-      width: 4vh;
-      vertical-align: middle;
-      position: relative;
-    }
-
   }
 }

@@ -8,12 +8,18 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { HttpModule } from '@angular/http';
 import { HttpClientModule } from '@angular/common/http'; 
+import { MensagensPage } from '../pages/mensagens/mensagens';
+import { ViagensPage } from '../pages/viagens/viagens';
+import { PerfilPage } from '../pages/perfil/perfil';
 
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    MensagensPage,
+    ViagensPage,
+    PerfilPage
   ],
   imports: [
     BrowserModule,
@@ -25,7 +31,10 @@ import { HttpClientModule } from '@angular/common/http';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    MensagensPage,
+    ViagensPage,
+    PerfilPage
   ],
   providers: [
     StatusBar,

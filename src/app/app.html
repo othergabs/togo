@@ -1,25 +1,25 @@
-<ion-nav [root]="rootPage"></ion-nav>
+<ion-nav [root]="rootPage" #conten></ion-nav>
 <ion-footer>
-  <div class="footer_item">
+  <a class="footer_item" (click)="redirectToHome()" [ngClass]="{active: activePage === 0}">
     <svg class="footer_item_icon">
       <use xlink:href="#search" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
     </svg>
-  </div>
-  <div class="footer_item">
+  </a>
+  <a class="footer_item" (click)="redirectToTravels()" [ngClass]="{active: activePage === 1}">
     <svg class="footer_item_icon">
       <use xlink:href="#van" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
     </svg>
-  </div>
-  <div class="footer_item">
-      <svg class="footer_item_icon">
-        <use xlink:href="#chat" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
-      </svg>
-    </div>
-  <div class="footer_item">
+  </a>
+  <a class="footer_item" (click)="redirectToChat()" [ngClass]="{active: activePage === 2}">
+    <svg class="footer_item_icon">
+      <use xlink:href="#chat" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+    </svg>
+  </a>
+  <a class="footer_item" (click)="redirectToProfile()" [ngClass]="{active: activePage === 3}">
     <svg class="footer_item_icon">
       <use xlink:href="#user-profile" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
     </svg>
-  </div>
+  </a>
 
 </ion-footer>
 <div aria-label="Sprite de ícones visuais" aria-hidden="true" class="d-none" [inlineSVG]="'/assets/imgs/sprite.svg'">
