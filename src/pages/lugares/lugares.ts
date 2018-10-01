@@ -46,6 +46,7 @@ export class LugaresPage {
           this.zone.run(() => {
             predictions.forEach((prediction) => {
               this.autocompleteItems.push(prediction);
+              console.log(this.autocompleteItems)
             });
           });
         }
