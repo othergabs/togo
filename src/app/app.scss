@@ -5,7 +5,7 @@
   justify-content: space-between;
   flex-direction: row;
   // box-shadow: 0 -1px 30px #ddd;
-  border-top: 1px solid #d7d7d7;
+  border-top: 1px solid $cinzaClaro;
   margin: 0;
   bottom: 0;
   top: unset;
@@ -34,6 +34,12 @@
       width: 20px;
       position: absolute;
       top: -2px;
+      box-shadow: 0 0 20px #9afff8;
     }
   }
+}
+
+
+body {
+  background: $branco;
 }
