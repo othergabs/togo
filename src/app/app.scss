@@ -54,10 +54,27 @@ h4,
 h5,
 h6 {
   font-weight: 800;
-  line-height: 20px;
+  line-height: 30px;
   margin: 0;
 }
 
 .item-inner {
   border: none!important;
+}
+
+.close_btn {
+  background: transparent;
+  border: none;
+  margin-bottom: 20px;
+  .icon {
+    font-size: 24px;
+  }
+}
+
+.footer {
+  background: #fff;
+}
+
+.scroll-content {
+  padding-bottom: 60px!important;
 }

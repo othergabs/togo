@@ -1,3 +1,109 @@
 page-home {
+  h1 {
+    margin-top: 10px !important;
+  }
 
+  span {
+    margin-top: 20px;
+    padding: 6px 55px;
+    border-radius: 2px;
+    background-position: left 8px center;
+    height: auto;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 3rem;
+    color: #141414;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    -webkit-appearance: none;
+    appearance: none;
+    display: block;
+    width: 100%;
+    border: 0;
+    font-family: inherit;
+  }
+
+  .searchbar-search-icon {
+    left: 16px;
+    top: 11px;
+    background-image: url("data:image/svg+xml;charset=utf-8,<svg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20512%20512'><path%20fill='%235b5b5b'%20d='M337.509,305.372h-17.501l-6.571-5.486c20.791-25.232,33.922-57.054,33.922-93.257C347.358,127.632,283.896,64,205.135,64C127.452,64,64,127.632,64,206.629s63.452,142.628,142.225,142.628c35.011,0,67.831-13.167,92.991-34.008l6.561,5.487v17.551L415.18,448L448,415.086L337.509,305.372z%20M206.225,305.372c-54.702,0-98.463-43.887-98.463-98.743c0-54.858,43.761-98.742,98.463-98.742c54.7,0,98.462,43.884,98.462,98.742C304.687,261.485,260.925,305.372,206.225,305.372z'/></svg>");
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 20px;
+  }
+
+  .hall {
+    margin-top: 40px;
+    &_subtitle {
+        color: #484848;
+        font-weight: 400;
+        font-size: 16px;
+        margin-top: 4px;
+    }
+    img {
+      border-radius: 6px;
+    }
+    &_item {
+        &_title {
+            font-weight: 600;
+            color: #484848;
+            text-transform: uppercase;
+            margin-top: 4px;
+        }
+    }
+  }
+
+  .help {
+    margin-top: 40px;
+  }
+
+  ul {
+    list-style: none;
+    overflow-x: auto;
+    display: flex;
+    padding: 0;
+    width: auto;
+    height: 100px;
+    li {
+      background-color: transparent !important;
+      box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px !important;
+      float: left !important;
+      margin-bottom: 4px !important;
+      width: 160px !important;
+      margin-right: 4px !important;
+      border-width: 1px !important;
+      border-style: solid !important;
+      border-color: rgba(0, 0, 0, 0.1) !important;
+      border-image: initial !important;
+      border-radius: 3px !important;
+      padding: 0px !important;
+      overflow: hidden !important;
+      position: relative;
+
+      div {
+        background: transparent;
+        border: none;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p {
+            font-weight: 600;
+            color: rgb(72, 72, 72);
+            margin-top: 4px;
+        }
+        svg {
+          width: 40px;
+          height: 40px;
+          fill: rgb(72, 72, 72);
+        }
+      }
+    }
+  }
 }

@@ -1,6 +1,9 @@
 <ion-header>
   <ion-toolbar>
-    <button (click)="dismiss()">Fechar</button>
+    <button class="close_btn" (click)="dismiss()">
+      <ion-icon name="close"></ion-icon>
+    </button>
+
     <ion-searchbar [(ngModel)]="autocomplete.input" (ionInput)="updateSearchResults()" placeholder="Pesquisar local de partida"></ion-searchbar>
   </ion-toolbar>
 </ion-header>

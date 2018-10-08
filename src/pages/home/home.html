@@ -1,4 +1,67 @@
 <ion-content padding>
   <h1>Explorar</h1>
-  <button (click)="teste()">teste</button>
+  <div (click)="teste()" class="searchbar-input-container">
+    <div class="searchbar-search-icon"></div>
+    <span>Para onde você quer ir?</span>
+  </div>
+  <div class="help">
+    <h1>O que podemos ajudar você a encontrar?</h1>
+    <ul>
+      <li>
+        <div>
+          <svg>
+            <use xlink:href="#minivan" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+          </svg>
+          <p>Minivan</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <svg>
+            <use xlink:href="#van2" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+          </svg>
+          <p>Van</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <svg>
+            <use xlink:href="#microbus" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+          </svg>
+          <p>Microônibus</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <svg>
+            <use xlink:href="#bus" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+          </svg>
+          <p>Ônibus</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="hall">
+    <h1>Os melhores</h1>
+    <p class="hall_subtitle">Nossos motoristas mais bem avaliados para você</p>
+
+    <div class="hall_item">
+      <ion-slides>
+        <ion-slide>
+          <img class="message_img" src="/assets/imgs/3.jpg" alt="">
+        </ion-slide>
+        <ion-slide>
+          <img class="message_img" src="/assets/imgs/3.jpg" alt="">
+        </ion-slide>
+        <ion-slide>
+          <img class="message_img" src="/assets/imgs/3.jpg" alt="">
+        </ion-slide>
+      </ion-slides>
+
+      <p class="hall_item_title">Minivan moderna do José Ailton</p>
+      <p></p>
+
+    </div>
+
+  </div>
 </ion-content>
